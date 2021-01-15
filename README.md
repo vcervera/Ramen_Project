@@ -6,13 +6,18 @@
 
 
 #### Install Dep: 
-1.Make a venv:
+1. Make a venv:
     windows: py im venv venv
     mac/linux: python3 -m venv venv
 
-2.Activate the venv:
-windows: .\venv\Scripts\Activate.ps1
-mac/linux: source venv/bin/activate
+2. Activate the venv:
+    windows: .\venv\Scripts\Activate.ps1
+    mac/linux: source venv/bin/activate
 
-3:Install the Requirments
-pip install -r requirements.txt
+3. Install Requirments:
+     pip install -r requirements.txt
+    
+4.  Before running jupyter lab: 
+    python -m ipykernel install --user --name=(ramen_project)-->Name of the project
+
+

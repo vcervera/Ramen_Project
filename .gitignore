@@ -187,5 +187,5 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,python,code,jupyternotebooks
 
-#Things I have ignored 
+# Things I have ignored 
 *.csv
